@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Resume Yao Yuheng',
+  description: "My past, present, and future",
 };
 
 /**
@@ -69,18 +69,20 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Yao Yuheng.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+      I'm a master student of data science in NTU.
+      I'm interested in designing pipelines to solve data related problems, currently working on <strong className="text-stone-100">LLM-based Query rewriting</strong> 
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+       Recently I profiled and cleaned a food inspection file by fuzzy matching and approximate function dependency. 
+       I also mined the association rules based on Apriori algorthm and managen the data into a database.
+      </p>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+       Another project I've done recently is to analyze the collaboration network of NTU CCDS faculty with open data in DBLP.
+       Before I learn data science, I was a collage student marjor in Statists in BUAA, so I'm also interested and mastered in Statists and ML.
       </p>
     </>
   ),
@@ -104,16 +106,19 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `Hi, Yao Yuheng from China. Currently I'm a master student of data science in NTU.
+       I'm interested in design pipeline to solve data related problems,
+       e.g. recently I profiled and cleaned a food inspection file by fuzzy matching and approximate function dependency. 
+       I also mined the association rules based on Apriori algorthm and managen the data into a database.
+       Another project I've done recently is to analyze the collaboration network of NTU CCDS faculty with open data in DBLP.
+       Before I learn data science, I was a collage student marjor in Statists in BUAA, so I'm also interested and mastered in Statists and ML.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Singapore', Icon: MapIcon},
+    {label: 'Age', text: '23', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Chinese', Icon: FlagIcon},
+    {label: 'Interests', text: 'Video games, Swiming, Traveling', Icon: SparklesIcon},
+    {label: 'Study', text: 'Nanyang Technological University', Icon: AcademicCapIcon},
+    {label: 'Major', text: 'Data Science', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -125,67 +130,63 @@ export const skills: SkillGroup[] = [
     name: 'Spoken languages',
     skills: [
       {
-        name: 'English',
+        name: 'Chinese',
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
+        name: 'English',
+        level: 7,
       },
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Data Science',
     skills: [
       {
-        name: 'React',
+        name: 'Machine Learning',
         level: 9,
       },
       {
-        name: 'Typescript',
-        level: 7,
+        name: 'Data System',
+        level: 6,
       },
       {
-        name: 'GraphQL',
-        level: 6,
+        name: 'Deep Learning',
+        level: 5,
       },
     ],
   },
   {
-    name: 'Backend development',
+    name: 'Statistics',
     skills: [
       {
-        name: 'Node.js',
+        name: 'Statistics Models',
         level: 8,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'Time Series Analysis',
+        level: 6,
       },
       {
-        name: 'Golang',
-        level: 4,
+        name: 'Experimental Design',
+        level: 5,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Soft Skills',
     skills: [
       {
-        name: 'React Native',
+        name: 'Problem Solving',
         level: 9,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'Team Collaboration',
+        level: 8,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'Presentation Skills',
+        level: 7,
       },
     ],
   },
@@ -196,71 +197,30 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'January 2025 - now: LLM-based Query rewrite(on going)',
+    description: 'Optimized baseline for LLM-based query rewrite baseline. \nAutomated pipeline for data preparation, management, generative model and analysis of query rewrite. \nInduce noval technics and the state of art model.',
+    url: '',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'April 2025: A Network Science\'s View on Academic Collaboration at NTU CCDS',
+    description: ' Led data preprocessing using Python to clean and structure co-authorship data from DBLP, resolving issues like missing values, duplication, and outdated links.\nConstructed and visualized a dynamic, undirected, and weighted collaboration network, with nodes representing faculty and edges indicating co-authorships over time.\nAnalyzed network properties (e.g., degree distribution, average degree growth, preferential attachment) to uncover structural patterns such as the emergence of hubs and densification trends.',
+    url: 'https://github.com/piglet12138/collaboration-network-of-NTU-CCDS-faculty',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'April 2025: Chicago Food Inspection Data Quality Profiling and Preparation',
+    description: 'Cleaned and analyzed a large-scale public dataset (~287K rows, 17 columns) on food inspections from the City of Chicago Open Data Portal.\n Applied association rule mining (Apriori) to uncover patterns in violations across facility types, inspection results, and risk levels. \nDiscovered and verified (approximate) functional dependencies using TANE to enhance schema understanding and imputation logic.',
+    url: 'https://github.com/piglet12138/-DATA-PREPARATION-FOR-FOOD-INSPECTION',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'November 2025: Virality and Sentiment Analysis of Online Fitness Videos on Bilibili',
+    description: 'Collected and processed over 320,000+ user comments and metadata from Pamela Reif\'s fitness videos on Bilibili, using Open API integration and web scraping tools. Conducted exploratory data analysis (EDA) to identify trends in video popularity, user demographics (gender, user level, region), and content tags. Developed a feature selection and regression model to identify key predictors of high-performing videos (e.g., tags, video length, time of release).',
+    url: 'https://github.com/piglet12138/Virality-and-Sentiment-Analysis-of-Online-Fitness-Videos-on-Bilibili',
     image: porfolioImage4,
   },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
-  },
+
 ];
 
 /**
@@ -268,39 +228,28 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: ' August 2024 - February 2026',
+    location: 'Nanyang Technological University, Singapore',
+    title: 'Master of Data Science',
+    content: <p>Learn how to think as a data scientist, and the flow of data preparation, data management, modeling and analysis, and visualization and dissemination.</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'September 2020 - June 2024',
+    location: 'Beihang University , Beijing, China',
+    title: 'Bachelor of Statists',
+    content: <p>Learn mathenmatical analysis, Advanced Algebra, and some other maths, and then probability thery, stochastic process, regression analysis, and some deep learning.</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
+
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'Jane 2023 - Auguest 2023',
+    location: 'Chinese Institute of Electronics',
+    title: 'Data Management assistant',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
-    ),
-  },
-  {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
-    content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+       Manage the competitor data of the 18th "GigaDevice Cup" China Graduate Electronics Design Contest, assist the leader to hold the contest.
       </p>
     ),
   },
@@ -309,26 +258,28 @@ export const experience: TimelineItem[] = [
 /**
  * Testimonial section
  */
+
 export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      name: '',
+      text: '',
+      image: '',
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+      name: '',
+      text: '',
+      image: '',
     },
     {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+      name: '',
+      text: '',
+      image: '',
     },
   ],
 };
+
 
 /**
  * Contact section
@@ -336,27 +287,27 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'I\'m happy to hear from you',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'yuheng004@e.ntu.edu.sg',
+      href: 'yuheng004@e.ntu.edu.sg',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Singapore NTU',
+      href: 'https://maps.app.goo.gl/hr1n2QfeZ17TGjhH6',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@yuhengyaoyao',
+      href: 'https://www.instagram.com/yuhengyaoyao/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'piglet12138',
+      href: 'https://github.com/piglet12138',
     },
   ],
 };
@@ -365,9 +316,8 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/piglet12138'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/%E9%92%B0%E7%8F%A9-%E5%A7%9A-2ab123320/'},
   {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+
 ];
