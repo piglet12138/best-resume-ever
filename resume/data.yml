@@ -2,74 +2,91 @@
 # Any fields left unchanged, please delete so your resume is fully yours!
 
 name:
-  first: John
+  first: Yuheng
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I'm just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: Yao
+about: Hi, Yao Yuheng from China. Currently I'm a master student of data science in NTU.
+       I'm interested in design pipeline to solve data related problems,
+       e.g. recently I profiled and cleaned a food inspection file by fuzzy matching and approximate function dependency. 
+       I also mined the association rules based on Apriori algorthm and managen the data into a database.
+       Another project I've done recently is to analyze the collaboration network of NTU CCDS faculty with open data in DBLP.
+       Before I learn data science, I was a collage student marjor in Statists in BUAA, so I'm also interested and mastered in Statists and ML.
+position: 
 
 birth:
-  year: 1990
-  location: New York
+  year: 2001
+  location: Singapore
 
 # you may add more experiences by duplicating the template
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
-
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
-
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: Chinese Institute of Electronics
+  position: Data Management
+  timeperiod:  Jane to Auguest 2023
+  description:  Manage the competitor data of the 18th "GigaDevice Cup" China Graduate Electronics Design Contest, assist the leader to hold the contest.
+  
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- degree: Master of Data Science
+  timeperiod: August 2024 - February 2026
+  description: Major in Data Science, Nanyang Technological University, Singapore.
+  
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: Bachelor of Statists
+  timeperiod: September 2020 - June 2024
+  description: Major in Statists, Beihang University , Beijing, China.
 
 # skill level goes from 0 to 100
 skills:
-- name: HTML5
+- name: Python
   level: 99
-- name: CSS3
+- name: R
   level: 95
-- name: JavaScript
+- name: SQL
   level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
-  level: 80
-- name: ES.Next
-  level: 70
 - name: Docker
   level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+knowledge: Also proficient in 
+  
 
 projects:
-- name: best-resume-ever
-  platform: Vue
-  timeperiod: February 2016
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+
+- name: LLM-based Query rewrite(on going)
+  timeperiod:  January 2025 - now
+  description: optimized baseline for LLM-based query rewrite baseline.
+               automated pipeline for data preparation, management, generative model and analysis of query rewrite .
+               Induce noval technics and the state of art model.
+  
+  
+- name: A Network Science's View on Academic Collaboration at NTU CCDS
+  timeperiod: April 2025
+  description: Led data preprocessing using Python to clean and structure co-authorship data from DBLP, resolving issues like missing values, duplication, and outdated links.
+               Constructed and visualized a dynamic, undirected, and weighted collaboration network, with nodes representing faculty and edges indicating co-authorships over time.
+               Analyzed network properties (e.g., degree distribution, average degree growth, preferential attachment) to uncover structural patterns such as the emergence of hubs and densification trends.
+  
+  url: https://github.com/piglet12138/collaboration-network-of-NTU-CCDS-faculty
+
+- name: Chicago Food Inspection Data Quality Profiling and Preparation
+  timeperiod: April 2025
+  description: Cleaned and analyzed a large-scale public dataset (~287K rows, 17 columns) on food inspections from the City of Chicago Open Data Portal.
+               Applied association rule mining (Apriori) to uncover patterns in violations across facility types, inspection results, and risk levels.
+               Discovered and verified (approximate) functional dependencies using TANE to enhance schema understanding and imputation logic.
+  url: https://github.com/piglet12138/-DATA-PREPARATION-FOR-FOOD-INSPECTION
+
+- name: Virality and Sentiment Analysis of Online Fitness Videos on Bilibili
+  timeperiod: April 2025
+  description: Collected and processed over 320,000+ user comments and metadata from Pamela Reif's fitness videos on Bilibili, using Open API integration and web scraping tools.
+               Conducted exploratory data analysis (EDA) to identify trends in video popularity, user demographics (gender, user level, region), and content tags.
+               Developed a feature selection and regression model to identify key predictors of high-performing videos (e.g., tags, video length, time of release).
+  url: https://github.com/piglet12138/Virality-and-Sentiment-Analysis-of-Online-Fitness-Videos-on-Bilibili
+
+  - name: Virality and Sentiment Analysis of Online Fitness Videos on Bilibili
+  timeperiod: April 2025
+  description: Collected and processed over 320,000+ user comments and metadata from Pamela Reif's fitness videos on Bilibili, using Open API integration and web scraping tools.
+               Conducted exploratory data analysis (EDA) to identify trends in video popularity, user demographics (gender, user level, region), and content tags.
+               Developed a feature selection and regression model to identify key predictors of high-performing videos (e.g., tags, video length, time of release).
+  url: https://github.com/piglet12138/Virality-and-Sentiment-Analysis-of-Online-Fitness-Videos-on-Bilibili
+
 
 # optional, not all resume templates have hobbies included
 hobbies:
@@ -87,12 +104,10 @@ contributions:
   url: https://github.com/salomonelli/best-resume-ever
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: yuheng004@e.ntu.edu.sg
+  phone: 81440450
+  wechat: yaoyh_12138 
+  github: https://github.com/piglet12138
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `
