@@ -1,147 +1,84 @@
-<h1 align="center">
-  <br>
-  <a href="https://github.com/salomonelli/best-resume-ever">
-  <img src="src/assets/logo.png" alt="Markdownify" width="200"></a>
-  <br>
-  best-resume-ever
-  <br>
-</h1>
+# React JS Resume Website Template
+
+![ReactJS Resume Website Template](resume-screenshot.jpg?raw=true 'ReactJS Resume Website Template')
 
 <div align="center">
 
-[![Travis badge](https://travis-ci.org/salomonelli/best-resume-ever.svg?branch=master)](https://travis-ci.org/salomonelli/best-resume-ever)
+<img alt="GitHub release (latest by date including pre-releases" src="https://img.shields.io/github/v/release/tbakerx/react-resume-template?include_prereleases">
+
+<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/tbakerx/react-resume-template?style=flat">
+
+<img alt="GitHub Repo forks" src="https://img.shields.io/github/forks/tbakerx/react-resume-template?style=flat&color=success">
+
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tbakerx/react-resume-template?style=flat&color=yellow">
+
+<img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/tbakerx/react-resume-template/react?style=flat">
+
+<img alt="Github Repo Sponsors" src="https://img.shields.io/github/sponsors/tbakerx?style=flat&color=blueviolet">
+
+## React based template for software developer-focused resume websites
 
 </div>
 
-<h4 align="center">
-  :necktie: :briefcase: Build fast :rocket: and easy multiple beautiful resumes and create your best CV ever!
-  <br><br>
-  Made with Vue and LESS.
-</h4>
+### View a [live demo here.](https://reactresume.com)
 
-<br>
-<br>
+#### If this template has helped you and you'd like to support my work, feel free to [♥️ Sponsor](https://github.com/sponsors/tbakerx) the project
 
-<p align="left">
-<p>Cool<br>
-<img src="src/assets/preview/resume-cool.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-<img src="src/assets/preview/resume-cool-rtl2.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-<img src="src/assets/preview/resume-cool-rtl.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-</p>
-<p>Creative<br>
-<img src="src/assets/preview/resume-creative.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-</p>
-<p>Green<br>
-<img src="src/assets/preview/resume-green.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-</p>
-<p>Purple<br>
-<img src="src/assets/preview/resume-purple.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-</p>
-<p>Side Bar<br>
-<img src="src/assets/preview/resume-side-bar.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-<img src="src/assets/preview/resume-side-bar-rtl.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-<img src="src/assets/preview/resume-side-bar-projects.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-</p>
-<p>Left Right<br>
-<img src="src/assets/preview/resume-left-right.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-<img src="src/assets/preview/resume-left-right-rtl.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-<img src="src/assets/preview/resume-left-right-projects.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-</p>
-<p>Material Dark<br>
-<img src="src/assets/preview/resume-material-dark.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-<img src="src/assets/preview/resume-material-dark-projects.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-</p>
-<p>Oblique<br>
-<img src="src/assets/preview/resume-oblique.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-<img src="src/assets/preview/resume-oblique-rtl.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-<img src="src/assets/preview/resume-oblique-projects.png" width="150" style="margin-right:5px; border: 1px solid #ccc;" />
-</p>
-</p>
+### 🎉 Version 2 is here! New features:
+1. Completely rebuilt with React and full typescript support
+2. Built on the [Next.js](https://nextjs.org/) framework for easy server side rendering/static generation, image optimization, api routes, and deployment
+3. Styled entirely with [TailwindCss](https://tailwindcss.com/)
+4. Re-organized data population file for customizing site.
+5. Significant improvement/modernization of all site sections
+ 
+**Looking for the old version? You can find it [here.](https://github.com/tbakerx/react-resume-template/releases/tag/v1.0.0)**
 
-<br>
-<br>
+## Description
 
+This is a React based personal resume website template. Built with typescript on the Next.js framework, styled with Tailwind css, and populated with data from a single file, you can easily create, customize and host your own personal website in minutes. Even better, the site is fully mobile-optimized and server-side rendered to ensure fast loading and a clean UI on any device. Read on to learn how to make it your own.
 
+## Make it Your Own!
 
-## Prerequisite
+### 1. Make sure you have what you need
 
-1. It is required to have Node.js with version 8.5.0 or higher. To see what version of Node.js is installed on your machine type the following command in the terminal:
+To build this website, you will need to have the latest stable versions of Node and Yarn downloaded and installed on your machine. If you don't already have them, you can get Node [here,](https://nodejs.org/en/download/) and Yarn [here.](https://yarnpkg.com/getting-started/install)
 
-```
-node -v
-```
+### 2. Fork and download this repo (and star if you like!)
 
-2. If you do not have installed Node.js in your machine then go to [this link](https://nodejs.org/en/download/) in order to install node.
+Next, find the `Fork` button in the top right of this page. This will allow you to make your own copy, for more info on forking repo's see [here.](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository) After this, download to your development machine using the green `Code` button at the top of the repo page.
 
-## How to use
+### 3. Install dependencies and run
 
-1. Clone this repository.
+Once you have your own copy of this repo forked and downloaded, open the folder in your favorite terminal and run `yarn install` to install dependencies. Following this, run `yarn dev` to run the project. In your terminal you should be given the url of the running instance (usually http://localhost:3000 unless you have something else running).
 
-```
-git clone https://github.com/salomonelli/best-resume-ever.git
-```
+### 4. Customize the data to make it your own
 
-2. Go to the cloned directory (e.g. `cd best-resume-ever`).
+All of the data for the site is driven via a file at `/src/data/data.tsx`. This is where you'll find the existing content, and updating the values here will be reflected on the site. If you have the site running as described above, you should see these changes reflected on save. The data types for all of these items are given in the same folder in the `dataDef.ts` file. Example images can be found at `src/images/` and are imported in the data file. To change, simply update these images using the same name and location, or add new images and update the imports. 
 
-3. Run `npm install`. This may take a few seconds.
+### 5. Hook up contact form
+Due to the variety of options available for contact form providers, I've hooked up the contact form only so far as handling inputs and state. Form submission and the actual sending of the email is open to your own implementation. My personal recommendation for email provider is [Sendgrid.](https://sendgrid.com/)
 
-4. Customize your resume in the `resume/` directory: edit your data `data.yml` and replace the default profile-picture `id.jpg` with your picture. Rename your picture as `id.jpg` and copy it in the `resume/` directory. During this step, you may find it easier to navigate with Finder or File Explorer to get to the files. This will allow you to edit files with your computers default text editor. 
+### 6. Make any other changes you like
 
-5. Preview resumes with `npm run dev`. The command will start a server instance and listen on port 8080.  Open (http://localhost:8080/home) in your browser. The page will show some resume previews. To see the preview of your resume, with your picture and data, click on one layout that you like and the resume will be opened in the same window.
+Of course, all of the code is there and nothing is hidden from you so if you would like to make any other styling/data changes, feel free!
 
-![Resume previews](/readme-images/resumePreviews.png)
+### 7. Deploy to Vercel and enjoy your new Resume Website
 
+Deploying your new site to Vercel is simple, and can be done by following their guide [here.](https://vercel.com/guides/deploying-nextjs-with-vercel) When you're all done and the build succeeds, you should be given a url for your live site, go there and you'll see your new personal resume website! Congratulations!
 
-6. Export your resume as pdf by running the command `npm run export`. In order to avoid errors due to the concurrency of two  `npm run` commands, stop the execution of the previus `npm run dev` and then type the export command.
+## Project Created & Maintained By
 
-All resumes will be exported to the `pdf/` folder.
+### Tim Baker
 
-<br>
+<a href="https://twitter.com/timbakerx"><img src="https://github.com/aritraroy/social-icons/blob/master/twitter-icon.png?raw=true" width="60"></a><a href="https://instagram.com/tbakerx"><img src="https://github.com/aritraroy/social-icons/blob/master/instagram-icon.png?raw=true" width="60"></a>
 
-## Creating and Updating Templates
+[![GitHub followers](https://img.shields.io/github/followers/tbakerx.svg?style=social&label=Follow)](https://github.com/tbakerx/)
 
-Please read the <a href="DEVELOPER.md">developer docs</a> on how to create or update templates.
+## Stargazers
 
-<br>
+[![Stargazers repo roster for @tbakerx/react-resume-template](https://reporoster.com/stars/dark/tbakerx/react-resume-template)](https://github.com/tbakerx/react-resume-template/stargazers)
 
-## Contribute
+## Forkers
 
-Feel free to add your own templates, language supports, fix bugs or improve the docs. Any kind of help is appreciated! If you make any kind of changes to an existing template, please commit them as new templates.
+[![Forkers repo roster for @tbakerx/react-resume-template](https://reporoster.com/forks/dark/tbakerx/react-resume-template)](https://github.com/tbakerx/react-resume-template/network/members)
 
-<br>
-
-
-## Sponsored by
-
-<p align="center">
-    <a href="https://rxdb.info/nodejs-database.html">
-        <img
-            src="https://rxdb.info/files/logo/logo_text.svg"
-            alt="Sponsored by RxDB - NodeJs Database"
-            width="300"
-         />
-         <br />
-         <br />
-         <span>The <b>NodeJs Database</b></span>
-    </a>
-</p>
-
-## Credits
-
-This project uses several open source packages:
-
-- <a href="https://github.com/vuejs/vue" target="_blank">Vue</a>
-- <a href="https://github.com/GoogleChrome/puppeteer" target="_blank">Puppeteer</a>
-- <a href="https://github.com/less/less.js" target="_blank">LESS</a>
-
-<br>
-
----
-
-> [sarasteiert.com](https://www.sarasteiert.com) &nbsp;&middot;&nbsp;
-> GitHub [@salomonelli](https://github.com/salomonelli) &nbsp;&middot;&nbsp;
-> Twitter [@salomonelli](https://twitter.com/salomonelli)
-
-## License
-
-[MIT](https://github.com/salomonelli/best-resume-ever/blob/master/LICENCE.md)
