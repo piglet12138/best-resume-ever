@@ -198,7 +198,7 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'January 2025 - now: LLM-based Query rewrite(on going)',
-    description: 'Optimized baseline for LLM-based query rewrite baseline. \nAutomated pipeline for data preparation, management, generative model and analysis of query rewrite. \nInduce noval technics and the state of art model.',
+    description: 'Optimized baseline for LLM-based query rewrite baseline. \nAutomated pipeline for data preparation, management, generative model and analysis of query rewrite. \nInduce novel techniques and the state of art model.',
     url: '',
     image: porfolioImage1,
   },
@@ -215,7 +215,7 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage3,
   },
   {
-    title: 'November 2025: Virality and Sentiment Analysis of Online Fitness Videos on Bilibili',
+    title: 'November 2024: Virality and Sentiment Analysis of Online Fitness Videos on Bilibili',
     description: 'Collected and processed over 320,000+ user comments and metadata from Pamela Reif\'s fitness videos on Bilibili, using Open API integration and web scraping tools. Conducted exploratory data analysis (EDA) to identify trends in video popularity, user demographics (gender, user level, region), and content tags. Developed a feature selection and regression model to identify key predictors of high-performing videos (e.g., tags, video length, time of release).',
     url: 'https://github.com/piglet12138/Virality-and-Sentiment-Analysis-of-Online-Fitness-Videos-on-Bilibili',
     image: porfolioImage4,
