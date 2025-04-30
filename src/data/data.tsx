@@ -11,13 +11,13 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import heroImage from '../images/header-background.webp';
+import heroImage from '../images/header-background.jpg';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-/** 
 import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+/** 
 import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
 import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
@@ -26,7 +26,7 @@ import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 */
 import profilepic from '../images/profilepic.jpg';
-import testimonialImage from '../images/testimonial.webp';
+import testimonialImage from '../images/testimonial.jpg';
 import {
   About,
   ContactSection,
@@ -220,7 +220,12 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://github.com/piglet12138/Virality-and-Sentiment-Analysis-of-Online-Fitness-Videos-on-Bilibili',
     image: porfolioImage4,
   },
-
+  {
+    title: 'October 2024: Analysis of China\'s Population Change and Demographic Trends',
+    description: 'Analyzed demographic datasets (UN, Our World in Data) to identify declining birth rates, linking trends to rising childcare costs (500K CNY/child) and urban housing affordability (7.5x income ratio).Developed a regression model (R-square=0.94) highlighting fertility rate and delayed marriages (+4 years since 2000) as key drivers of population decline.Visualized insights via interactive dashboards (Plotly) and heatmaps.',
+    url: 'https://github.com/piglet12138/AGE-STRUCTURE-OF-CHINA-VISUALIZAITON',
+    image: porfolioImage5,
+  },
 ];
 
 /**
